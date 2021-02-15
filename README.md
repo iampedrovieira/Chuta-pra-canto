@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/iampedrovieira/Chuta-pra-canto">
-    <img src="stuff/icon.png" alt="Logo" width="215" height="80">
+    <img src="stuff/icon.png" alt="Logo" width="215" height="180">
   </a>
 
   <h3 align="center">Chuta pra canto</h3>
