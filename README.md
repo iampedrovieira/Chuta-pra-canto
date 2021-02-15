@@ -11,13 +11,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/iampedrovieira/Chuta-pra-canto">
-    <img src="stuff/icon.icon" alt="Logo" width="215" height="80">
+    <img src="stuff/icon.png" alt="Logo" width="215" height="80">
   </a>
 
   <h3 align="center">Chuta pra canto</h3>
 
   <p align="center">
-    University project in vue
+    University project use rest api
     <br />
     
   </p>
@@ -84,21 +84,21 @@
 
 Pedro Vieira - [@iampedrovieira](https://twitter.com/iampedrovieira) - pedro97vieira@gmail.com
 
-Project Link: [https://github.com/iampedrovieira/E-QUE-HA](https://github.com/iampedrovieira/E-QUE-HA)
+Project Link: [https://github.com/iampedrovieira/Chuta-pra-canto](https://github.com/iampedrovieira/Chuta-pra-canto)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/iampedrovieira/E-QUE-HA.svg?style=for-the-badge
-[contributors-url]: https://github.com/iampedrovieira/E-QUE-HA/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/iampedrovieira/E-QUE-HA.svg?style=for-the-badge
-[forks-url]: https://github.com/iampedrovieira/E-QUE-HA/network/members
-[stars-shield]: https://img.shields.io/github/stars/iampedrovieira/E-QUE-HA.svg?style=for-the-badge
-[stars-url]: https://github.com/iampedrovieira/E-QUE-HA/stargazers
-[issues-shield]: https://img.shields.io/github/issues/iampedrovieira/E-QUE-HA.svg?style=for-the-badge
-[issues-url]: https://github.com/iampedrovieira/E-QUE-HA/issues
-[license-shield]: https://img.shields.io/github/license/iampedrovieira/E-QUE-HA.svg?style=for-the-badge
-[license-url]: https://github.com/iampedrovieira/E-QUE-HA/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/iampedrovieira/Chuta-pra-canto.svg?style=for-the-badge
+[contributors-url]: https://github.com/iampedrovieira/Chuta-pra-canto/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/iampedrovieira/Chuta-pra-canto.svg?style=for-the-badge
+[forks-url]: https://github.com/iampedrovieira/Chuta-pra-canto/network/members
+[stars-shield]: https://img.shields.io/github/stars/iampedrovieira/Chuta-pra-canto.svg?style=for-the-badge
+[stars-url]: https://github.com/iampedrovieira/Chuta-pra-canto/stargazers
+[issues-shield]: https://img.shields.io/github/issues/iampedrovieira/Chuta-pra-canto.svg?style=for-the-badge
+[issues-url]: https://github.com/iampedrovieira/Chuta-pra-canto/issues
+[license-shield]: https://img.shields.io/github/license/iampedrovieira/Chuta-pra-canto.svg?style=for-the-badge
+[license-url]: https://github.com/iampedrovieira/Chuta-pra-canto/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/pedro-vieira-0561781b8/
 [product-screenshot]: images/screenshot.png
