@@ -1,0 +1,176 @@
+/*
+Scroll da pagina 
+*/
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f500;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f500;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #ade8f4;
+}
+
+.first-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50%;
+    gap: 0px 0px;
+    grid-template-areas: "clube-info" "jogos";
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid var(--primary-color);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+
+/* Safari */
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container {}
+
+.classification {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.table-league {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: auto;
+    margin-top: 40px;
+    width: 85%;
+}
+
+.table-team {
+    width: 40%;
+    color: red;
+}
+
+.table-form {
+    width: 15%;
+}
+
+.table-league th {
+    text-align: center;
+    border-bottom: 1px solid black;
+    background-color: var( --secundary-text-color);
+    color: var( --primary-text-color);
+}
+
+.td_table-position {
+    text-align: center;
+}
+
+td {
+    background-color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-style: bold;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.td_table-team {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.td_table-team img {
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.form_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_win {
+    background-color: #90A959;
+    color: white;
+    width: 15%;
+    text-align: center;
+    border-radius: 35%;
+    margin: 2%;
+}
+
+.form_draw {
+    background-color: #E9B872;
+    color: black;
+    width: 15%;
+    text-align: center;
+    border-radius: 35%;
+    margin: 2%;
+}
+
+.form_lost {
+    background-color: #A63D40;
+    color: white;
+    width: 15%;
+    text-align: center;
+    border-radius: 35%;
+    margin: 2%;
+}
+
+#card {
+    height: 85%;
+}
+
+.img_news {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 245px;
+    border-radius: 10px;
+    margin-bottom: 10%
+}
+
+.titulo_news {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+
+.desc_news {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: black;
+    font-size: unset;
+}

@@ -1,0 +1,9 @@
+https://boggio-analytics.com/fp-api/#quick-guide
+https://www.scorebat.com/daugava-d-vs-ventspils-live-stream/
+https://www.football-data.org/pricing
+Your API email: jpedrovieira@ipvc.pt
+Your API token: 96a8ef21d3894e3a828033c76178d395
+Your API plan: Free Tier
+
+Img VIdeo
+https://img.youtube.com/vi/VIDDEOID/default.jpg

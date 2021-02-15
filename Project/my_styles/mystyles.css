@@ -1,0 +1,194 @@
+:root {
+    --primary-color: #489FB5;
+    --primary-text-color: #EDE7E3;
+    --secundary-text-color: #16697A;
+    --e: #82C0CC;
+    --table-back: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 9%, rgba(6, 75, 164, 1) 28%, rgba(5, 105, 184, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    --table-2: linear-gradient(90deg, rgba(2, 0, 36, 1) 9%, rgba(9, 9, 121, 1) 42%, rgba(6, 75, 164, 1) 64%, rgba(5, 177, 184, 1) 83%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+/*
+Scroll da pagina 
+*/
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f500;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f500;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #ade8f4;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid var(--primary-color);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+
+/* Safari */
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#header {
+    background-color: var(--primary-color);
+}
+
+.dropdown li {
+    padding: 7%;
+    color: var( --secundary-text-color);
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 54% 25% 100% 25%;
+}
+
+.dropdown img {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 3%;
+}
+
+.dropdown li:hover {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    ;
+}
+
+#pesquisa {
+    color: var(--primary-text-color);
+    transform: color 0.5;
+}
+
+#pesquisa:hover {
+    color: var(--primary-color);
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*
+    Card's styles
+*/
+
+.liga {
+    color: #333333;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 28px;
+    text-align: center;
+}
+
+.pais {
+    text-align: center;
+    color: #333;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 15px;
+}
+
+.teams {
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+
+.predict {
+    margin-top: 40px;
+    color: #333;
+    font-family: fantasy;
+    font-size: 16px;
+    line-height: 28px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.odd {
+    margin-top: 10px;
+    color: #333;
+    font-family: fantasy;
+    font-size: 16px;
+    line-height: 28px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.temp {
+    padding: 10px;
+    background-color: #8DB9E2;
+    border-radius: 10px;
+}
+
+.temp_title {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    color: white;
+}
+
+.p_sumario {
+    margin-top: 2px;
+    text-align: center;
+    color: white;
+}
+
+.p_temperatura {
+    margin-top: 2px;
+    text-align: center;
+    color: white;
+}
+
+.p_chuva {
+    margin-top: 2px;
+    text-align: center;
+    color: white;
+}
+
+.temp img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 30%;
+    margin-top: 2px;
+}
+
+#card {
+    width: 18rem;
+    margin: 10%;
+    border-radius: 15px;
+}
